@@ -1,7 +1,7 @@
 baseURL = "https://coldlocals.com/"
 languageCode = "en-us"
 title = "Nick Buraglio"
-#theme = "hugo-sustain"
+theme = "mero"
 #disqusShortname = "https-soehlert-com"
 
 [params]
