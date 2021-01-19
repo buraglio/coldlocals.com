@@ -32,7 +32,7 @@ I decided to do some internet sleuthing and found a little on both of the bands 
 
 &nbsp;
 
-{{< youtube //www.youtube.com/embed/LyOeNcN_xwA >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LyOeNcN_xwA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 &nbsp;
 
