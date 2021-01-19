@@ -10,7 +10,7 @@ googleAnalytics = ""
 disqusShortname = ""
 
 [author]
-  name = ""
+  name = "Nick Buraglio"
 
 SectionPagesMenu = "main"
 
@@ -22,8 +22,8 @@ SectionPagesMenu = "main"
 [[menu.main]]
   name = "Posts"
   weight = -120
-  identifier = "post"
-  url = "/post/"
+  identifier = "posts"
+  url = "/posts/"
 
 [[menu.main]]
   name = "Tags"
