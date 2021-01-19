@@ -1,5 +1,5 @@
 baseURL = "https://coldlocals.com"
-languageCode = "zh-cn"
+languageCode = "en-us"
 DefaultContentLanguage = "en-us"
 title = "ColdLocals"
 paginate = 10
@@ -57,7 +57,7 @@ theme = "hulga"
     weight = 1
   [[menu.main]]
     identifier = "posts"
-    name = "post"
+    name = "posts"
     url = "/posts/"
     weight = 2
   [[menu.main]]
