@@ -56,8 +56,8 @@ theme = "hulga"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "post"
-    name = "post"
+    identifier = "posts"
+    name = "posts"
     url = "/posts/"
     weight = 2
   [[menu.main]]
