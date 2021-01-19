@@ -9,7 +9,7 @@ theme = "hulga"
   # show in HTML meta tag
   author = "Nick Buraglio"
   keywords = "Skateboarding, BMX, Coldlocals"
-  description = "CLF/FCL
+  description = "CLF/FCL"
 
   # change bulma's primary color
   primaryColor = "#1793d0"
