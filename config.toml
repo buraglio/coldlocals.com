@@ -21,15 +21,21 @@ SectionPagesMenu = "main"
 
 [[menu.main]]
   name = "Posts"
-  weight = -120
+  weight = -130
   identifier = "post"
   url = "/posts/"
 
 [[menu.main]]
-  name = "Tags"
+  name = "About"
+  weight = -120
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+  name = "Shop"
   weight = -110
-  identifier = "tag"
-  url = "/tags/"
+  identifier = "shop"
+  url = "/shop/"
 
 [params.meta]
   keywords = "blog, skateboarding, bmx"
