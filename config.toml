@@ -1,53 +1,71 @@
-baseurl = "/"
-title = "Cold Locals"
-copyright = "Copyright (c) 2020, 935 Media, all rights reserved."
-canonifyurls = true
-languageCode = "en-US"
-paginate = 3
-theme = "hugo-dusk"
-
-googleAnalytics = ""
-disqusShortname = ""
-
-[author]
-  name = "Nick Buraglio"
-
-SectionPagesMenu = "main"
-
-# Configure syntax highlight
-[markup]
-  [markup.highlight]
-    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
-
-[[menu.main]]
-  name = "Posts"
-  weight = -130
-  identifier = "post"
-  url = "/posts/"
-
-[[menu.main]]
-  name = "About"
-  weight = -120
-  identifier = "about"
-  url = "/about/"
-
-[[menu.main]]
-  name = "Shop"
-  weight = -110
-  identifier = "shop"
-  url = "/shop/"
-
-[params.meta]
-  keywords = "blog, skateboarding, bmx"
-  description = "ColdLocals 1988-Infinity."
+baseURL = "https://coldlocals.com"
+languageCode = "zh-cn"
+DefaultContentLanguage = "en-us"
+title = "ColdLocals"
+paginate = 10
+theme = "hulga"
 
 [params]
-#  github = "github id"
-#  gitlab = "gitlab id"
-#  twitter = "twitter id"
-#  linkedin = "linkedin id"
-#  email = "myemail"
-  theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
-  utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
-  utterancesTheme="github-dark" # Default: github-dark
-  utterancesIssueTerm="pathname" # Default: pathname
+  # show in HTML meta tag
+  author = "Nick Buraglio"
+  keywords = "Skateboarding, BMX, Coldlocals"
+  description = "CLF/FCL
+
+  # change bulma's primary color
+  primaryColor = "#1793d0"
+
+  # subtitle on homepage
+  subtitle = "935 Skateboarding, 1988-Infinity"
+
+  # copyright text on footer
+  copyright = "Copyright © 2020 935 Media. All rights reserved."
+
+  # enable katex rendering on every post page
+  math = true
+
+  # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower)
+  postcss = true
+
+  # enable toc on every post page
+  toc = true
+
+  # enable TOC auto collapse
+  autoCollapseToc = true
+
+  # enable prefers-color-scheme:dark
+  darkMedia = true
+
+  # enable hero section's is-bold effect
+  heroBold = true
+
+  # enable PWA, prepare your icons and DON'T forget to modify manifest.json
+  pwa = true
+
+  # disable jsdelivr cdn, default false
+  noCDN = false
+
+# to enable different hightlight themes in light/dark mode 
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name = "Main"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "post"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
