@@ -18,4 +18,4 @@ categories:
 ---
 I recently got the (almost 10 years!) old deck out and kicked around the driveway. My balance isn&#8217;t nearly as good as it once was, but at nearly 39 years old at least I can still do a kickflip. I even impressed myself by being able to still pull off a stationary switch stance kickflip after only a few tries.
   
-{{< youtube //www.youtube.com/embed/Mc83VNC5ihQ >}}
+#{{< youtube //www.youtube.com/embed/Mc83VNC5ihQ >}}
