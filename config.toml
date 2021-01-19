@@ -24,7 +24,7 @@ theme = "hulga"
   math = true
 
   # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower)
-  postcss = true
+  postcss = false
 
   # enable toc on every post page
   toc = true
