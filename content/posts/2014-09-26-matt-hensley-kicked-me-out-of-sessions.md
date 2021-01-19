@@ -7,8 +7,6 @@ url: /2014/09/matt-hensley-kicked-me-out-of-sessions/
 featured_image: https://www.coldlocals.com/wp-content/uploads/2014/09/sessions-mag-scan.jpg
 themeblvd_title:
   - Matt Hensley kicked me out of the Sessions skate shop in Chicago
-themeblvd_keywords:
-  - "Matt Hensley", Nick Buraglio, skate, cold locals, 61727, buraglio, sessions
 themeblvd_noindex:
   - 'true'
 categories:
