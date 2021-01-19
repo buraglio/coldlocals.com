@@ -1,66 +1,47 @@
-baseURL = "https://coldlocals.com/"
-languageCode = "en-us"
-title = "Nick Buraglio"
-theme = "indigo"
-#disqusShortname = "https-soehlert-com"
+baseurl = "/"
+title = "Cold Locals"
+copyright = "Copyright (c) 2020, 935 Media, all rights reserved."
+canonifyurls = true
+languageCode = "en-US"
+paginate = 3
+theme = "hugo-dusk"
+
+googleAnalytics = ""
+disqusShortname = ""
+
+[author]
+  name = ""
+
+SectionPagesMenu = "main"
+
+# Configure syntax highlight
+[markup]
+  [markup.highlight]
+    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
+
+[params.meta]
+  keywords = "blog, skateboarding, bmx"
+  description = "ColdLocals 1988-Infinity."
 
 [params]
-  author = "Nick Buraglio"
-  description = "I do stuff with things and sometimes I do things with stuff"
-  GitHubUser = "buraglio"
-
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/buraglio"
-
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/forwardingplane"
-
-  [[params.social]]
-    name = "instagram"
-    url = "https://www.instagram.com/buraglio/"
-
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/buraglio"
-
-  [params.style]
-    # Sidebar
-    darkestColor = "#314C59"
-    # Background
-    darkColor = "#253031"
-    # Primary accents
-    primaryColor = "#6EA4BF"
-    # Description
-    lightColor = "#808080"
-    # Title
-    lightestColor = "#fff"
-
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    url = "/about"
-
-  [[menu.main]]
-    identifier = "posts"
-    name = "blog"
-    url = "/posts"
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "tags"
-    url = "/tags"
-
-  [[menu.main]]
-    identifier = "categories"
-    name = "categories"
-    url = "/categories"
-
-[permalinks]
-  posts = "/:year/:month/:title/"
-
-[blackfriday]
-  hrefTargetBlank = true
+#  github = "github id"
+#  gitlab = "gitlab id"
+#  twitter = "twitter id"
+#  linkedin = "linkedin id"
+#  email = "myemail"
+  theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
+  utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
+  utterancesTheme="github-dark" # Default: github-dark
+  utterancesIssueTerm="pathname" # Default: pathname
