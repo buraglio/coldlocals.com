@@ -5,16 +5,13 @@ title = "(C)oldLocals"
 paginate = 10
 # theme = "hulga"
 theme = "yuan"
+enableMouseTracker: false
+
 [params]
   # show in HTML meta tag
   author = "Nico B"
   keywords = "Skateboarding, BMX, Coldlocals"
   description = "CLF/FCL"
-enableMouseTracker: false
-
-
-# change bulma's primary color
-# primaryColor = "#1793d0"
 
   # subtitle on homepage
   subtitle = "935 Skateboarding, 1988-Infinity"
