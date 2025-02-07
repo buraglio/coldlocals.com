@@ -5,7 +5,7 @@ title = "(C)oldLocals"
 paginate = 10
 # theme = "hulga"
 theme = "yuan"
-enableMouseTracker: false
+enableMouseTracker = false
 
 [params]
   # show in HTML meta tag
