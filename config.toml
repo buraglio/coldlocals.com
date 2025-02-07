@@ -1,24 +1,26 @@
 baseURL = "https://coldlocals.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en-us"
-title = "ColdLocals"
+title = "(C)oldLocals"
 paginate = 10
-theme = "hulga"
-
+# theme = "hulga"
+theme = "yuan"
 [params]
   # show in HTML meta tag
-  author = "Nick Buraglio"
+  author = "Nico B"
   keywords = "Skateboarding, BMX, Coldlocals"
   description = "CLF/FCL"
+enableMouseTracker: false
 
-  # change bulma's primary color
-  primaryColor = "#1793d0"
+
+# change bulma's primary color
+# primaryColor = "#1793d0"
 
   # subtitle on homepage
   subtitle = "935 Skateboarding, 1988-Infinity"
 
   # copyright text on footer
-  copyright = "Copyright © 2020 935 Media. All rights reserved."
+  copyright = "Copyright © 2025 935 Media. All rights reserved."
 
   # enable katex rendering on every post page
   math = true
